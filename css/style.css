@@ -32,8 +32,8 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-.lightpurple {
-  color: #A24BF8;
+.light {
+  color: #097930;
 }
 
 .darkblue {
@@ -3335,11 +3335,7 @@ h5 {
   height: 10rem;
 }
 
-@media screen and (max-width: 1024px) {
-  .img-responsive-md {
-    width: 45%;
-  }
-}
+
 
 @media screen and (max-width: 414px) {
   .img-responsive-xs {
@@ -3409,8 +3405,8 @@ h5 {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.lightpurple {
-  color: #A24BF8;
+.lightgreen {
+  color: #35fd2d;
 }
 
 .darkblue {
@@ -3809,4 +3805,22 @@ footer a {
 footer a:hover {
   color: white;
 }
+
+body {
+  font-family: Arial, sans-serif;
+}
+.button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+}
+.button:hover {
+  background-color: #45a049;
+}
+
 /*# sourceMappingURL=style.css.map */
+
